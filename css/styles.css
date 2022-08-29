@@ -242,14 +242,15 @@ img {
 }
 
 .socials__button{
+  display: inline-block;
   font-size: 28px;
   line-height: 36px;
   background-color: var(--hero-button-bg-color);
   border-radius: 31px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 42px;
-  padding-right: 42px;
+  padding: 16px 42px 16px 42px;
+  margin-left: 553px;
+  margin-right: 527px;
+  margin-top: 30px;
 }
 
 .functions__button{
