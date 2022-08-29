@@ -238,6 +238,7 @@ img {
 
 .socials__button-small{
   background-color: var(--hero-socials-button);
+  /* margin-top: 40px; */
 }
 
 .socials__button{
@@ -429,6 +430,60 @@ img {
 
 .more-question__img{
   margin-top: -180px;
+}
+
+
+/* SOCIALS */
+.socials {
+  display: flex;
+  margin-top: 136px;
+} 
+
+.socials__container{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.socials__info:not(:last-child) {
+  margin-right: 72px;
+}
+
+.socials__info{
+  border-radius: 48px;
+  box-shadow: 0px 4px 5px 5px rgba(0, 0, 0, 0.25);
+  padding: 31px 36px 50px 40px;
+}
+
+.socials__img {
+  align-items: center;
+}
+
+.socials__title {
+  margin-left: 20px;
+  font-size: 24px;
+  line-height: 43px;
+  display: flex;
+}
+
+.socials__text {
+  font-family: "Ruluko";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.socials-info__top{
+  margin-top: -117px;
+}
+
+.socials__button__box{
+  margin-top: 20px;
+}
+
+.socials-info:hover{
+  color: #fff;
+  background-color: var(--hero-socials-button);
 }
 
 
