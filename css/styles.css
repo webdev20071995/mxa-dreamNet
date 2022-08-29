@@ -429,3 +429,11 @@ img {
 .more-question__img{
   margin-top: -180px;
 }
+
+
+
+/* media */
+@media screen and (min-width: 11111px) {
+  body {
+      background-color: lightgreen;
+}}
