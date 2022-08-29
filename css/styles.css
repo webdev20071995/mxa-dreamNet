@@ -133,7 +133,7 @@ body {
   height: 100%;
   background-color: #fff;
   color: #222;
-  font-family:"Koulen" "Arial", sans-serif;
+  font-family:"Koulen", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   padding: 0;
@@ -289,6 +289,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
+    color: #fff;
 }
 
 .site-header__logo{
